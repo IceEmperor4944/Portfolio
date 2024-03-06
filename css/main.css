@@ -4,9 +4,10 @@ body {
     color: #f9f3ea;
 }
 
-nav {
+ul {
     background-color:#abd2e0;
-    width: 200px;
+    width: 500px;
+    color: #78614e;
 }
 
 h2 {
