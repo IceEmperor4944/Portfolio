@@ -1,28 +1,33 @@
 body {
     background-image: url("../images/scenery.jpg");
     margin: 10%;
-    color: antiquewhite;
+    color: #f9f3ea;
 }
 
 nav {
-    background-color:#008888;
+    background-color:#abd2e0;
     width: 200px;
 }
 
-main, h1, h2 {
-    width: 55%;
+h2 {
+    width: 50%;
 }
 
 h4 {
-    background-color: #008888;
+    background-color: #d9ead3;
     width: 300px;
-    color: black;
+    color: #78614e;
+}
+
+#banner {
+    height: 200px;
+    width: 1000px;
 }
 
 #slideshow {
-    background-color: black;
+    background-color: #78614e;
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
 
 #slide {
@@ -38,5 +43,5 @@ h4 {
 }
 
 .here {
-    color: "#343131#340000#121212#000020#000000";
+    color: #aa9786;
 }

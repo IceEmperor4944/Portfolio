@@ -11,42 +11,23 @@ fetch('https://v2.jokeapi.dev/joke/Programming').then(response => {
     })
 })
 
+var slide = document.querySelector('#slide')
 
-/*
-var bombImage = document.querySelector('#bomb-image')
-
-var bombPositionClasses = [
-    "left1",
-    "left2",
-    "left3",
-    "left4",
-    "left5"
+var slideClasses = [
+    "images/dnd.jpg",
+    "images/guitar.jpg",
+    "images/nature1.jpg",
+    "images/musicInTheParks.jpg",
+    "images/dndthing.jpg",
+    "images/pillars.jpg",
+    "images/nature2.jpg"
 ]
-
-console.log(bombPositionClasses.length)
-
-for(var i = 0; i < bombPositionClasses; i++){
-    
-    bombImage.classList.add(bombPositionClasses[i])
-}
-
 var i = 0;
-var goingleft = false;
-var totalDurationInSeconds = 0;
 setInterval(() => {
-    if(totalDurationInSeconds >= 5){
-        explode();   
-    }
-    bombImage.classList = [];
-    bombImage.classList.add(bombPositionClasses[i])
-    if(goingleft){
-        i--;
-    }else{
+    slide.src = slideClasses[i];
+    if(i != slideClasses.length - 1){
         i++;
+    }else{
+        i = 0;
     }
-    if(i == bombPositionClasses.length-1){
-        goingleft = true;
-    }else if(i == 0){
-        goingleft = false;
-    }
-}, 1000);*/
+}, 15000);
