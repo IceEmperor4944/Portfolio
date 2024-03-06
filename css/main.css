@@ -1,0 +1,30 @@
+body {
+    background-image: "scenery.jpg";
+    margin: 10%;
+}
+
+main, h1, h2 {
+    width: 55%;
+}
+
+#slideshow {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+#slide {
+    width: 500px;
+}
+
+#shreddin {
+    visibility: hidden;
+}
+
+#quote, #author {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.here {
+    color: "#343131#340000#121212#000020#000000";
+}
