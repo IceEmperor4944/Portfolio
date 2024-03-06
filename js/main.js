@@ -1,21 +1,18 @@
-const my_button = document.getElementById('my_button');
-var randNum = Math.floor( Math.random() * 100 ) + 1;
-console.log(randNum)
-var count = 0;
+var joke = document.querySelector('#joke')
+var setup = document.querySelector('#setup')
+var delivery = document.querySelector('#delivery')
 
-document.getElementById('my_input').value = ""
-
-var quote = document.querySelector('#quote')
-var author = document.querySelector('#author')
-
-fetch('https://stoic.tekloon.net/stoic-quote').then(response => {
+fetch('https://v2.jokeapi.dev/joke/Programming').then(response => {
     response.json().then(data => {
         console.log(data)
-        quote.textContent = data.quote
-        author.textContent = data.author
+        joke.textContent = data.joke
+        setup.textContent = data.setup
+        delivery.textContent = data.delivery
     })
 })
 
+
+/*
 var bombImage = document.querySelector('#bomb-image')
 
 var bombPositionClasses = [
@@ -52,4 +49,4 @@ setInterval(() => {
     }else if(i == 0){
         goingleft = false;
     }
-}, 1000);
+}, 1000);*/

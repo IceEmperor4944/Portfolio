@@ -1,10 +1,22 @@
 body {
-    background-image: "scenery.jpg";
+    background-image: url("../images/scenery.jpg");
     margin: 10%;
+    color: antiquewhite;
+}
+
+nav {
+    background-color:#008888;
+    width: 200px;
 }
 
 main, h1, h2 {
     width: 55%;
+}
+
+h4 {
+    background-color: #008888;
+    width: 300px;
+    color: black;
 }
 
 #slideshow {
