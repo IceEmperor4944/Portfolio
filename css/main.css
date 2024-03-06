@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/scenery.jpg");
-    margin: 10%;
+    margin: 5%;
     color: #f9f3ea;
 }
 
@@ -41,8 +41,4 @@ h4 {
 
 #quote, #author {
     font-family: 'Times New Roman', Times, serif;
-}
-
-.here {
-    color: #aa9786;
 }
